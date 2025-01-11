@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkéfalos - Compétitions et Activités</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0e1217;
+            color: #ffffff;
+        }
+        a {
+            text-decoration: none;
+            color: #fbc531;
+        }
+        header {
+            background: #1e272e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #fbc531;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h2 {
+            font-size: 50px;
+            color: #fbc531;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fbc531;
+            color: #0e1217;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #d1a22b;
+        }
+        
+        .section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .activities {
+            background-color: #1e272e;
+            padding: 50px 20px;
+        }
+        .activities h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .activity-card {
+            background: #2f3640;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: 300px;
+            text-align: left;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+        .activity-card:hover {
+            transform: scale(1.05);
+        }
+        .activity-card h4 {
+            color: #fbc531;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background: #1e272e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .social-links a {
+            margin: 0 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Enkéfalos</h1>
+    <nav>
+        <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#activities">Activités</a></li>
+            <li><a href="#events">Événements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="hero">
+    <div>
+        <h2>Bienvenue chez Enkéfalos</h2>
+        <p>Découvrez l'excitation de la compétition et explorez des opportunités uniques pour tester vos compétences.</p>
+        <a href="#activities" class="btn">Explorez nos Activités</a>
+    </div>
+</section>
+
+<section class="activities" id="activities">
+    <h3>Nos Activités</h3>
+    <div class="activity-card">
+        <h4>Compétition d'échecs</h4>
+        <p>Rejoignez notre tournoi annuel et testez vos stratégies contre les meilleurs joueurs.</p>
+    </div>
+    <div class="activity-card">
+        <h4>Hackathon</h4>
+        <p>Développez des solutions innovantes et collaborez avec d'autres passionnés de technologie.</p>
+    </div>
+    <div class="activity-card">
+        <h4>Marathon</h4>
+        <p>Participez à notre événement sportif pour repousser vos limites.</p>
+    </div>
+</section>
+
+<section class="section" id="events">
+    <h3>Événements Récents</h3>
+    <div class="gallery">
+        <img src="event1.jpg" alt="Événement 1">
+        <img src="event2.jpg" alt="Événement 2">
+        <img src="event3.jpg" alt="Événement 3">
+        <img src="event4.jpg" alt="Événement 4">
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h3>Contactez-Nous</h3>
+    <p>Email : contact@enkefalos.com</p>
+    <p>Téléphone : +212-664414974</p>
+    <p><a href="https://www.instagram.com/enkefalos_official/" target="_blank">Suivez-nous sur Instagram</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Enkéfalos. Tous droits réservés.</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/enkefalos_official/" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkéfalos - Compétitions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            background: url('header-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #f0db4f;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .event {
+            background: #333;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            transition: transform 0.3s;
+        }
+
+        .event:hover {
+            transform: scale(1.05);
+        }
+
+        .event h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .event p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #222;
+            color: #777;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Bienvenue à Enkéfalos</h1>
+        <p>Rejoignez-nous pour des compétitions mémorables !</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#evenements">Événements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="evenements">
+        <h1>Nos Derniers Événements</h1>
+        <div class="event">
+            <h2>Kings Cup</h2>
+            <p>Un tournoi de football avec 8 équipes de 5 joueurs chacune. L'événement se déroulera à Kénitra, Le Vallon.</p>
+            <a href="kings-cup.html" style="color: #f0db4f; text-decoration: none;">En savoir plus</a>
+        </div>
+        <!-- Vous pouvez ajouter plus d'événements ici -->
+    </section>
+
+    <section id="contact">
+        <h1>Contactez-Nous</h1>
+        <form>
+            <div>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" style="background-color: #f0db4f; border: none; padding: 10px 20px; border-radius: 4px;">Envoyer</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Enkéfalos. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
+
+<!-- kings-cup.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kings Cup</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #f0db4f;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        a {
+            color: #f0db4f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Kings Cup - Détails de l'Événement</h1>
+    <p>
+        Le "Kings Cup" est un tournoi de football palpitant qui réunit 8 équipes. Chaque équipe se compose de 5 joueurs,
+        prêts à s'affronter pour remporter le trophée.
+    </p>
+    <p>
+        <strong>Lieu:</strong> Kénitra, Le Vallon<br>
+        <strong>Date:</strong> À déterminer<br>
+        <strong>Prix:</strong> Trophée du Kings Cup
+    </p>
+    <a href="index.html">Retour à la page principale</a>
+</div>
+</body>
+</html>
